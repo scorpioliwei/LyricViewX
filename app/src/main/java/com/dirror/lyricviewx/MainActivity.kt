@@ -7,6 +7,7 @@ import android.os.Bundle
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+<<<<<<< Updated upstream
         setContentView(R.layout.activity_main)
 
         val lyricViewX = findViewById<LyricViewX>(R.id.lyricViewX)
@@ -72,6 +73,8 @@ class MainActivity : AppCompatActivity() {
         })
 //        lyricViewX.setNormalColor(Color.rgb(255, 0, 0))
 //        lyricViewX.setNormalTextSize(18F)
+=======
+>>>>>>> Stashed changes
     }
 
 
